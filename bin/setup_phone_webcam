@@ -1,0 +1,7 @@
+#!/bin/bash
+
+VIDEO_SOURCE="http://192.168.0.5:8080/video"
+DEVICE="/dev/video2"
+
+sudo modprobe v4l2loopback exclusive_caps=1
+ffmpeg -i "$VIDEO_SOURCE" -vf format=yuv420p -f v4l2 "$DEVICE"

@@ -1,0 +1,42 @@
+* {
+  color: #12eae4;
+  font-family: "Fira Mono", monospace;
+}
+
+window {
+  margin: 5px;
+  border: 1px solid #12eae4;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+#input {
+  margin: 5px;
+  background: transparent;
+  border: none;
+}
+
+#inner-box {
+  margin: 5px;
+}
+
+#outer-box {
+  margin: 5px;
+}
+
+#scroll {
+  margin: 5px;
+}
+
+#text {
+  margin: 5px;
+  color: #12eae4;
+}
+
+#entry:selected {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#text:selected {
+  text-decoration: underline;
+}
+

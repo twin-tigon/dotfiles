@@ -1,0 +1,88 @@
+* {
+  font-family: "Fira Mono";
+  font-size: 11px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: black;
+  color: #12eae4;
+  border: 1px solid #12eae4;
+}
+
+tooltip {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #12eae4;
+}
+
+tooltip label {
+  color: #12eae4;
+}
+
+#window {
+  font-family: "Fira Mono";
+}
+
+#workspaces button {
+  color: #01b4bd;
+  border: 1px solid #12eae4;
+}
+
+#workspaces button.focused {
+  color: #12eae4;
+}
+
+#tray,
+#temperature,
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#network,
+#pulseaudio {
+  padding: 0 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#temperature.critical {
+  color: #b62d66;
+}
+
+#battery icon {
+  color: #12eae4;
+}
+
+@keyframes blink {
+  to {
+    background-color: #8fd4ff;
+    color: black;
+  }
+}
+
+#battery.warning:not(.charging) {
+  color: white;
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  border-radius: 5px;
+}
+
+#battery.warning:not(.charging) {
+  color: white;
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  border-radius: 5px;
+}
+
+#network.disconnected {
+  color: #b62d66;
+}
+

@@ -1,0 +1,25 @@
+[core]
+pager = diff-so-fancy | less --tabs=4 -RFX
+precomposeUnicode = true
+[init]
+defaultBranch = main
+[ssh]
+variant = ssh
+[user]
+email = yo@rodrigogarcia.me
+name = Rodrigo García
+[pull]
+rebase = true
+[push]
+autoSetupRemote = true
+[github]
+user = yo@rodrigogarcia.me
+[advice]
+detachedHead = false
+[alias]
+co = checkout
+ci = commit
+st = status
+br = branch
+cp = cherry-pick
+re = rebase
