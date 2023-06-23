@@ -1,25 +1,46 @@
 [core]
-pager = diff-so-fancy | less --tabs=4 -RFX
-precomposeUnicode = true
+    pager = delta
+    precomposeUnicode = true
+
 [init]
-defaultBranch = main
+    defaultBranch = main
+
 [ssh]
-variant = ssh
+    variant = ssh
+
 [user]
-email = yo@rodrigogarcia.me
-name = Rodrigo García
+    email = yo@rodrigogarcia.me
+    name = Rodrigo García
+
 [pull]
-rebase = true
+    rebase = true
+
 [push]
-autoSetupRemote = true
+    autoSetupRemote = true
+
 [github]
-user = yo@rodrigogarcia.me
+    user = yo@rodrigogarcia.me
+
 [advice]
-detachedHead = false
+    detachedHead = false
+
 [alias]
-co = checkout
-ci = commit
-st = status
-br = branch
-cp = cherry-pick
-re = rebase
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    cp = cherry-pick
+    re = rebase
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true
+    light = false
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
