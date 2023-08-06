@@ -17,7 +17,6 @@ fi
 alias c='batcat'
 alias cp='nocorrect cp'
 alias rm='nocorrect rm'
-#alias code='code-insiders --enable-features=WaylandWindowDecorations --ozone-platform-hint=auto'
 alias f='fasd -f'
 alias l='exa'
 alias ls='exa'
