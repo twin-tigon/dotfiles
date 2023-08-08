@@ -26,6 +26,7 @@ alias g='hub'
 alias git='hub'
 alias upd='sudo apt update && sudo apt upgrade'
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias code='code-insiders'
 
 #
 # Sources
