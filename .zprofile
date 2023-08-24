@@ -84,3 +84,9 @@ export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow --glob "!.g
 #
  
 export BAT_THEME='base16'
+
+#
+# ssh
+#
+
+export SSH_AUTH_SOCK=$HOME/.ssh/agent.sock
