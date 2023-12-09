@@ -1,6 +1,7 @@
 [core]
     pager = delta
     precomposeUnicode = true
+    sshCommand = ssh.exe
 
 [init]
     defaultBranch = main
