@@ -23,7 +23,7 @@ alias ls='exa'
 alias la='exa -a'
 alias ll='exa -l'
 alias g='git'
-alias upd='sudo apt update && sudo apt upgrade && rustup update'
+alias upd='sudo apt update && sudo apt upgrade'
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias code='code-insiders'
 
