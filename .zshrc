@@ -31,7 +31,6 @@ alias code='code-insiders'
 # Sources
 #
 
-source $HOME/.secrets
 source $HOME/.zsh-vi-mode/zsh-vi-mode.plugin.zsh
 source /usr/share/doc/fzf/examples/key-bindings.zsh
 source /usr/share/doc/fzf/examples/completion.zsh
